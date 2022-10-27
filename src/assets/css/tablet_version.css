@@ -1,48 +1,31 @@
 /* you will add css rules for element selectors and IDs */
 #stagbeetle {
     background: #ffbd82;
-    padding-top: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
     }
 #ladybug {
     background: #ffd5ae;
-    padding-top: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
 }
 #bluemintbeetle {
     background: #b26219;
-    padding-top: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
 }
 .text {
-    background: white;
-    padding-left: 40px;
-    padding-bottom: 40px;
-    padding-right: 40px;
+    padding-left: 10px;
     font-size: 100%;
     line-height: normal;
-    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
 }
 p {
-    max-width: 600x;
-}
-.text h2 {
-    text-align: center;
+    max-width: 1024px;
 }
 article {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     text-align: left;
 }
-footer {
-    display: flex;
-}
 footer p {
-    align-content: center;
+    align-items: center;
     color: white;
 }
 header {
@@ -50,9 +33,8 @@ header {
     flex-direction: row;
 }
 h1 {
-    color: white;
+    color: white
 }
-
 
 /* you may add to or change the body rule */
 body {
@@ -94,8 +76,5 @@ a:hover {
     color: #82E8FF;
 }
 ul {
-    color: white;
-}
-.photo {
-    align-items: center;
+    color: white
 }
