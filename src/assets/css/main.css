@@ -4,18 +4,21 @@
     padding-top: 50px;
     padding-left: 50px;
     padding-right: 50px;
+    align-items: center;
     }
 #ladybug {
     background: #ffd5ae;
     padding-top: 50px;
     padding-left: 50px;
     padding-right: 50px;
+    align-items: center;
 }
 #bluemintbeetle {
     background: #b26219;
     padding-top: 50px;
     padding-left: 50px;
     padding-right: 50px;
+    align-items: center;
 }
 .text {
     background: white;
@@ -40,9 +43,12 @@ article {
 }
 footer {
     display: flex;
+    text-align: center;
+    justify-content: center;
 }
 footer p {
     align-content: center;
+    text-align: center;
     color: white;
 }
 header {
@@ -97,5 +103,6 @@ ul {
     color: white;
 }
 .photo {
-    align-items: center;
+    align-content: center;
+    text-align: center;
 }
